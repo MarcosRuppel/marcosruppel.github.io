@@ -104,7 +104,8 @@ body {
 .img-left,
 .img-right {
     flex-basis: 50%;
-    max-width: 350px;
+    max-width: 100%;
+    height: auto;
     margin: 5% 10%; /*acima direita abaixo esquerda*/
 }
 
