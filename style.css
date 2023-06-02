@@ -137,12 +137,14 @@ body {
   min-height: 70px;
 }
 
-.social-logo {
-  filter: invert(100%);
+.social-logo,
+.social-logo-blk {
   margin: 5px 0 0 20px; /* sintaxe: acima direita abaixo esquerda */
 }
 
-
+.social-logo-blk {
+  filter: invert(100%);
+}
 
 /* Abaixo estão os estilos da barra superior de navegação */
 
