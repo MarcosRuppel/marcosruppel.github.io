@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Marcos Paulo Ruppel - Home</title>
+        <style>
+            * {box-sizing: border-box}
+        </style>
+    </head>
+
+    <body>
+        <header class="header">
+            <p>MARCOS PAULO RUPPEL</p>
+        </header>
+
+        <nav class="navbar">
+            <ul>
+                <li><a class="menu_active" href="index.html">Início</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="sobre.html">Sobre mim</a></li>
+            </ul>
+        </nav>
+
+        <div class="content-container">
+            <p class="title">Projetos desenvolvidos:</p>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 4</div>
+                  <img src="images/projeto1.png" style="width:100%">
+                  <div class="text">Jogo - Escape Jorge</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 4</div>
+                  <img src="images/projeto2.png" style="width:100%">
+                  <div class="text">Aplicativo Multimídia - Simulado Direção Defensiva</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 4</div>
+                  <img src="images/projeto3.png" style="width:100%">
+                  <div class="text">Jogo em Python - Jokenpô</div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="images/projeto4.png" style="width:100%">
+                    <div class="text">Página Web - Portfólio</div>
+                  </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+
+            <p align="center">Competências atuais:<br></p>
+            <div class="grid-container">
+                <div class="block">Ambientes desktop/server Microsoft Windows</div>
+                <div class="block">Ambientes desktop/server Linux</div>
+                <div class="block">Bancos de dados PostgreSQL e Oracle</div>
+                <div class="block">Servidores de aplicações (JBoss, Wildfly, Apache Tomcat)</div>
+                <div class="block">Servidores Web ASP (IIS)</div>
+                <div class="block">Mainframes IBM e sistemas IBM Z/OS e TSO</div>
+                <div class="block">Virtualização e Cloud</div>
+            </div>
+            <br>
+            <p align="center">Competências em desenvolvimento:</p>
+            <div class="grid-container">
+                <div class="block">Programação em Python</div>
+                <div class="block">Programação gráfica em Processing(Java)</div>
+                <div class="block">Programação Web com HTML, CSS e JavaScript</div>
+                <div class="block">Design e programação de jogos e apps</div>
+            </div>
+        </div>
+        
+        <script src="mySlides.js"></script>
+
+        <footer class="footer">
+            <p>©2023 Marcos Paulo Ruppel.<br>Criado com HTML, CSS e JS - Projetado para Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+</p>
+        </footer>
+
+    </body>
+</html>
