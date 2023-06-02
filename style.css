@@ -106,7 +106,7 @@ body {
     flex-basis: 50%;
     max-width: 100%;
     height: auto;
-    margin: 5% 10%; /*acima direita abaixo esquerda*/
+    margin: 5% 0%; /*acima abaixo direita esquerda*/
 }
 
 .block {
